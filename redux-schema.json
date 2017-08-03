@@ -1,0 +1,38 @@
+[
+  { "name": "id", "type": "string" },
+  { "name": "ts", "type": "string" },
+  { "name": "name", "type": "string" },
+  {
+    "fields": [
+      {
+        "name": "address_line_1",
+        "type": "string"
+      },
+      {
+        "name": "address_line_2",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "state",
+        "type": "string"
+      },
+      {
+        "name": "zip4",
+        "type": "string"
+      },
+      {
+        "name": "zip_code",
+        "type": "string"
+      }
+    ],
+    "name": "address",
+    "type": "record"
+  },
+  { "name": "email", "type": "string" },
+  { "name": "proceeding", "type": "string" },
+  { "name": "comment", "type": "string" }
+]
